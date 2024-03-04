@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+}
+header {
+    margin: 0 auto;
+    max-width: 82.25rem;
+    width: 95%;
+    min-height: 5.625rem;
+    
+}
+.header-wraper {
+    margin: 0 auto;
+    max-width: 80rem;
+    width: 100%;
+    min-height: 5.625rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 1px solid dimgray;
+    border-right: 1px solid dimgray;
+}
+.logo {
+    max-width: 6.875rem;
+    width: 100%;
+    height: 1.375rem;
+}
+.navigation {
+    max-width: 29.75rem;
+    width: 100%;
+    height: 1.375rem;
+}
+.ul-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+a {
+    color: white;
+}
+.contact-me {
+    max-width: 7.375rem;
+    width: 100%;
+    height: 3.125rem;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.burger-bar {
+    display: none;
+}
+
+
+.section1 {
+    border-top: 2px solid dimgray;
+    margin: 0 auto;
+    
+}
+.sect1 {
+    margin: 0 auto;
+    max-width: 80rem;
+    width: 100%;
+    min-height: 8.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sect1-left {
+    max-width: 27.25rem;
+    width: 100%;
+    height: 6.875rem;
+}
+.sect1-right {
+    max-width: 25rem;
+    width: 100%;
+    height: 8.5rem;
+}
+.abstract-design {
+    max-width: 16.375rem;
+    width: 100%;
+    height: 16.375rem;
+}
+.sect1-left h3 {
+    color: dimgray;
+    font-size:1.125rem;
+}
+.sect1-left h2 {
+    color: white;
+    font-size: 3.75rem;
+}
+.sect1-right h3 {
+    color: white;
+    font-size: 3rem;
+}
+.comercial {
+    width: 100%;
+    height: 3.875rem;
+    background-color:  rgb(14, 14, 15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-and-text {
+    max-width: 14rem;
+    width: 100%;
+    height: 1.875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-and-text h6 {
+    font-size: 0.875rem;
+}
+.icon-and-text img {
+    width: 1.875rem;
+    height: 1.875rem;
+}
