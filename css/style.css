@@ -47,19 +47,22 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 .burger-bar {
     display: none;
+
 }
 
 
-.section1 {
+.about-me {
     border-top: 2px solid dimgray;
     margin: 0 auto;
     
 }
-.sect1 {
+.about {
     margin: 0 auto;
     max-width: 80rem;
     width: 100%;
@@ -69,12 +72,12 @@ a {
     align-items: center;
 }
 
-.sect1-left {
+.about-left {
     max-width: 27.25rem;
     width: 100%;
     height: 6.875rem;
 }
-.sect1-right {
+.about-right {
     max-width: 25rem;
     width: 100%;
     height: 8.5rem;
@@ -84,15 +87,15 @@ a {
     width: 100%;
     height: 16.375rem;
 }
-.sect1-left h3 {
+.about-left h3 {
     color: dimgray;
     font-size:1.125rem;
 }
-.sect1-left h2 {
+.about-left h2 {
     color: white;
     font-size: 3.75rem;
 }
-.sect1-right h3 {
+.about-right h3 {
     color: white;
     font-size: 3rem;
 }
@@ -118,4 +121,208 @@ a {
 .icon-and-text img {
     width: 1.875rem;
     height: 1.875rem;
+}
+
+
+.about-info {
+    max-width: 80rem;
+    width: 100%;
+    height: 48.5rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title {
+    max-width: 80rem;
+    width: 100%;
+    height: 8.125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid dimgray;
+}
+.about-title-text {
+    max-width: 25rem;
+    width: 100%;
+    height: 5.625rem;
+}
+.about-title-text h6 {
+    font-size: 1rem;
+    color: dimgray;
+}
+.about-title-text h1{
+    font-size: 3rem;
+    color: white;
+}
+.about-button {
+    max-width: 8.125rem;
+    width: 100%;
+    height: 3rem;
+    background-color: dimgray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-about {
+    width: 100%;
+    color: white;
+    background-color: dimgray;
+    font-size: 0.875rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photographer {
+    margin-top: 3.75rem;
+    max-width: 80rem;
+    width: 100%;
+    height: 36.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photographer-img {
+    max-width: 39.375rem;
+    width: 100%;
+    height: 36.625rem;
+}
+
+.photographer-img img {
+    max-width: 39.375rem;
+    width: 100%;
+    height: 36.625rem;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.photographer-info {
+    max-width: 39.375rem;
+    width: 100%;
+    height: 32.5rem;
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    row-gap: 30px;
+}
+.photographer-info h3,
+.photographer-info p,
+.photographer-info h5 {
+    color: gray;
+}
+.info-top {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    row-gap: 30px;
+    
+}
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 10.375rem;
+}
+.introduction p {
+    max-width: 35.625rem;
+    width: 100%;
+    height: 9rem;
+    
+    
+}
+.introduction h3 {
+    font-size: 1.5rem;
+}
+.info-bottom {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    row-gap: 30px;
+    /* border-top: 0.5px solid gray; */
+    
+}
+.contact {
+    max-width: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact h3 {
+    font-size: 1.5rem;
+}
+.contact-info {
+    max-width: 35.625rem;
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email,
+.phone {
+    max-width: 17.25rem;
+    width: 100%;
+    height: 3.5rem;
+}
+.contact-social {
+    max-width: 35.625rem;
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icons {
+    max-width: 9.75rem;
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px solid gray;
+    border-radius: 30px;
+}
+.fb,
+.twitter,
+.linkedin {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: gray;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-and-cv {
+    max-width: 22.75rem;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work,
+.cv {
+    max-width: 10.875rem;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 8px;
+}
+
+.btn {
+    border: none;
+    background-color: gray;
+    color: white;
 }

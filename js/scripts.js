@@ -1,18 +1,17 @@
 "use strict"
 
+
+const navBar = document.getElementById("nav");
 const burgerBar = document.getElementById("burgerBar");
-const navMenu = document.querySelector(".navigation")
 
-burgerBar.addEventListener("click", () => {
-    burgerBar.classList.toggle("active");
-    navMenu.classList.toggle("Active");
+burgerBar.addEventListener("click", function() {
+    navBar.classList.toggle("activeNav");
+
+    const burgerLine2 = document.querySelector(".bar2"); 
+    burgerLine2.classList.toggle("burger-line-hide");
+
+    const burgerLines = document.querySelectorAll(".bar"); 
+    burgerLines.forEach(function (element) {
+        element.classList.toggle("lines-to-X");
+    });
 });
-
-document.querySelectorAll(".nav-li").forEach((link) =>
-  link.addEventListener("click", () => {
-    burgerBar.classList.remove("active");
-    navMenu.classList.remove("active");
-    
-  })
-);
-
